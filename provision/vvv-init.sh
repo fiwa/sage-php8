@@ -123,6 +123,8 @@ install_wp() {
     cd "${VVV_PATH_TO_SITE}/${PUBLIC_DIR}"
     noroot wp core install --url="${DOMAIN}" --title="${SITE_TITLE}" --admin_name="${ADMIN_USER}" --admin_email="${ADMIN_EMAIL}" --admin_password="${ADMIN_PASSWORD}"
     echo " * WordPress was installed, with the username '${ADMIN_USER}', and the password '${ADMIN_PASSWORD}' at '${ADMIN_EMAIL}'"
+    echo " * Activate Sage theme"
+    noroot wp theme activate sage/resources
   fi
 }
 
