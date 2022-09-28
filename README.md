@@ -15,3 +15,11 @@
 ```
 
 3. Reprovision with `vagrant reload --provision`
+
+### 2. Install theme dependencies and build assets
+
+```sh
+$ cd web/app/themes/sage
+$ nvm use # Makes sure you use the node version specified in .nvmrc (if you use nvm)
+$ yarn && yarn build
+```
