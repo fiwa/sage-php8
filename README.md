@@ -23,3 +23,16 @@ $ cd web/app/themes/sage
 $ nvm use # Makes sure you use the node version specified in .nvmrc (if you use nvm)
 $ yarn && yarn build
 ```
+
+### 3. Access:
+
+Access the website: `https://sage9-php8.test`
+
+Access WordPress admin: `https://sage9-php8.test/wp/wp-admin/`
+
+Default user:
+
+```
+username: admin
+password: password
+```
