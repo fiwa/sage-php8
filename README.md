@@ -15,4 +15,3 @@
 ```
 
 3. Reprovision with `vagrant reload --provision`
->>>>>>> 69e78a1dc81415339111d40fe294fc679b1b3e4b
