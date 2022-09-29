@@ -1,5 +1,7 @@
 # sage-php8
 
+Based on discussion in https://discourse.roots.io/t/sage-9-php-8-0/22485.
+
 ## Local development in VVV
 
 #### 1. Setup VM:
